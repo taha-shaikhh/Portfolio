@@ -73,7 +73,7 @@ nav{
 }
 .menu-icon.active{
     z-index: 999;
-    background-color: #ff5f7e;
+    background-color: rgba(255, 0, 0, 0.2);
     transform: rotate(180deg);
     text-align: center;
     width: 100%;
@@ -86,49 +86,46 @@ nav{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     position: fixed;
     letter-spacing: 1rem;
-    background-color: indianred;
     background: transparent;
     display:flex;
-    flex-direction: column;
-    align-items: center;
     justify-content: flex-start;
     top: -100rem;
     transition: all 200ms ease-in-out;
 }
 .nav-list.active{
     display: flex;
-    flex-direction: column;
-    align-items: center;
     justify-content: flex-start;
     z-index: 9999;
-    top:4rem;
+    top:66px;
 }
 
 
 .nav-item{
-    background-color:#ff5f7e;
+    background-color:rgba(255, 0, 0, 0.2);
     margin: 0px;
     width: 100%;
     text-align: center;
     height: 6vh;
-    padding: 17px;
+    padding: 10px;
     letter-spacing: 1.5px;
+    display: inline;
     
 }
 
 .nav-link{
     opacity: 1;
-    font-size: 1.8rem;
+    font-size: 1.5rem;
     color:gray;
     letter-spacing: 1.5px;
 }
 .nav-item:hover{
-    
     border: 2px solid aliceblue;
+    
 }
 .nav-link:hover{
     color: black;
     letter-spacing: 3px;
+    
 }
 .btn{
     float: left;
@@ -140,7 +137,7 @@ button{
     color: cornsilk;
     width: 101px;
     position: relative;
-    margin: 24px 0px 0px 12px;
+    margin: 42px 0px 0px 12px;
     font-size: 1em;
     border-radius: 10%;
     font-family: cursive;
@@ -350,6 +347,9 @@ footer{
         font-size: 1rem;
     }
     .tier-skill{
+        flex-direction: column;
+    }
+    .nav-list.active{
         flex-direction: column;
     }
 
