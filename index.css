@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&family=Share+Tech+Mono&display=swap');
-
+@import url(https://fonts.googleapis.com/css?family=Khula:700);
 *{
     margin: 0;
     padding: 0;
@@ -159,8 +159,38 @@ button{
     background-size: contain;
     position: relative;
 }
+
+
+.hidden {
+    opacity:0;
+  }
+  .console-container{
+   
+    font-family:Helvetica;
+    font-size:2rem;
+    text-align:center;
+    display:block;
+    color:white;
+    margin:81px;
+  }
+  .console-container span{
+      font-size: 30px;
+      font-weight:900;
+      font-family:poppins;
+      margin-top: 20%;
+    letter-spacing: 1rem;
+    margin-top: 30px;
+  }
+  .console-underscore {
+     display:inline-block;
+     font-size: 30px;
+    position:relative;
+    top:-0.14em;
+    left:10px;
+  }
+
 .greet{
-    /* width: 100%; */
+    width: 100%;
     position: absolute;
     font-family: Helvetica;
     left: 50%;
@@ -487,7 +517,7 @@ footer{
     .greet h1{
         letter-spacing: 1rem;
         font-size: 1rem;
-        width: 29ch;
+
     }
     .greet h3{
         font-size: 1.5rem;
