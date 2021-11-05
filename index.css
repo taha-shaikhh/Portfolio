@@ -503,7 +503,6 @@ footer{
     .project-item{
         flex-direction: column;
         align-items: flex-start;
-        padding: 2rem;
     }
     .project-column-reverse{
         flex-direction: column-reverse;
