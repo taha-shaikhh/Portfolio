@@ -5,6 +5,10 @@
     box-sizing: inherit;
 }
 
+body::-webkit-scrollbar {
+  display: none;
+}
+
 html{
     font-size: 15px;
     scroll-behavior: smooth;
