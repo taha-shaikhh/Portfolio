@@ -14,7 +14,7 @@ function myFunction() {
  }
 
 
- consoleText(["I'm Taha Shaikh", 'Aspiring CE Student.'], 'text',['tomato','rebeccapurple','lightblue']);
+ consoleText(["I'm Taha Shaikh", 'Computer Engineer.'], 'text',['tomato','rebeccapurple','lightblue']);
 
  function consoleText(words, id, colors) {
    if (colors === undefined) colors = ['#fff'];
